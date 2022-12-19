@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+<servlet>
+	<servlet-name>loginStudent</servlet-name>
+	<servlet-class>com.inventory.loginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>loginStudent</servlet-name>
+	<url-pattern>/loginStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>loginAdmin</servlet-name>
+	<servlet-class>com.inventory.AdminloginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>loginAdmin</servlet-name>
+	<url-pattern>/loginAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ShowStudentAccountServlet</servlet-name>
+	<servlet-class>com.booking.ShowStudentAccountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ShowStudentAccountServlet</servlet-name>
+	<url-pattern>/ShowStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>studentinsert</servlet-name>
+	<servlet-class>com.inventory.StudentInsert</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>studentinsert</servlet-name>
+	<url-pattern>/insertstudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>studentupdate</servlet-name>
+	<servlet-class>com.inventory.UpdateStudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>studentupdate</servlet-name>
+	<url-pattern>/studentupdate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>getInventory</servlet-name>
+	<servlet-class>com.inventory.GetInventoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getInventory</servlet-name>
+	<url-pattern>/getInventory</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>inventoryinsert</servlet-name>
+	<servlet-class>com.inventory.InventoryInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>inventoryinsert</servlet-name>
+	<url-pattern>/inventoryinsert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>getAdmin</servlet-name>
+	<servlet-class>com.inventory.GetAdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getAdmin</servlet-name>
+	<url-pattern>/getAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>getConsumables</servlet-name>
+	<servlet-class>com.inventory.GetConsumablesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getConsumables</servlet-name>
+	<url-pattern>/getConsumables</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>getLog</servlet-name>
+	<servlet-class>com.inventory.GetLogServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getLog</servlet-name>
+	<url-pattern>/getLog</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>getStudent</servlet-name>
+	<servlet-class>com.inventory.GetStudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getStudent</servlet-name>
+	<url-pattern>/getStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>admininsert</servlet-name>
+	<servlet-class>com.inventory.AdminInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>admininsert</servlet-name>
+	<url-pattern>/admininsert</url-pattern>
+</servlet-mapping>
+
+</web-app>
+
